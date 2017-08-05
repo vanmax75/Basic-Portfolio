@@ -145,153 +145,6 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 			float:left;
 			height: 100px;}
 
-@charset "utf-8";}
-body {
-	font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	margin: 0;
-	padding: 0;
-	color: #000;
-	
-}
-
-/* ~~ Element/tag selectors ~~ */
-ul, ol, dl { 
-	padding: 0;
-	margin: 0;
-}
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	
-	padding-right: 15px;
-	padding-left: 15px; 
-	font-size: 20px;
-}
-a img { 
-	border: none;
-}
-
-
-a:link {
-	color: #42413C;
-	text-decoration: underline; 
-}
-a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
-}
-a:hover, a:active, a:focus { 
-	text-decoration: none;
-}
-
-
-.container {
-	width: 960px;
-	background-image: url("assets/images/vintage-leaves.png");
-	margin: 0 auto; 
-}
-
-.header {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	background:#ffffff;
-	height: 100px;
-	border-bottom-color: #cccccc;
-	border-bottom-style: solid;
-	border-bottom-width:  2px;
-}
-
-.content {
-	
-	padding: 10px 0;
-	width: 960px;
-	float: right;
-}
-
-
-.content ul, .content ol { 
-	padding: 0 15px 15px 40px; 
-}
-
-
-ul.nav {
-	list-style: none; 
-	border-top: 1px solid #666; /
-	margin-bottom: 15px; 
-}
-ul.nav li {
-	border-bottom: 1px solid #666; 
-}
-ul.nav a, ul.nav a:visited { 
-	padding: 5px 5px 5px 15px;
-	display: block; 
-	width: 160px;  
-	text-decoration: none;
-	background: #C6D580;
-}
-ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
-	background: #ADB96E;
-	color: #FFF;
-}
-
-/* ~~ The footer ~~ */
-.footer {
-	border-top: #4aaaa5 10px solid;
-	height: 90px;
-	padding: 10px 0;
-	background: #666666;
-	position: relative;
-	clear: both;
-}
-
-/* ~~ miscellaneous float/clear classes ~~ */
-.fltrt {  
-	float: right;
-	margin-left: 8px;
-}
-.fltlft { 
-	float: left;
-	margin-right: 8px;
-}
-.clearfloat { 
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
-}
-#nav {
-	height: 100px;
-  width: 280px;
-  border-top: 10px;
-  display:inline;
-  
-  }
-
-#link1 {	  
-			padding:10px;
-			display:inline-block; 
-			margin: 5px;
-			border-left: thin solid #666 ;}
-			
-#link {	  
-			padding:12px;
-			display:inline-block; 
-			margin: 5px;
-		 } 
-#name {
-	background-color:#4aaaa5;
-	color:#FFF;
-	font-family:Georgia, Times New Roman, Times, serif;
-	font-size:28px;
-	height:100px;
-	float:left;
-	margin-left: 50px;
-	width:280px;
-	
-			
-		}
-#invisible {
-			width: 340px;
-			float:left;
-			height: 100px;}
-
 
 #section {
   width: 600px;
@@ -325,11 +178,9 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 		font-size:24px;
 		}
 
-#copyright {
-	position:absolute;
-	margin-left: 350px;
-	padding-top: 20px;
-	top: 36px;
+#copyright {position:absolute;
+margin-left: 350px;
+padding-top: 20px;
 }
 #tname {
 	text-align: center;
